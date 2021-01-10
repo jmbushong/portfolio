@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 body{
     font-size: 14px;
 }
+
 
 .smallMarginTop{
     margin-top: 15px;
@@ -56,7 +58,7 @@ body{
 }
 
 .aboutText{
-    padding:0px 80px;
+    padding:0px 50px;
 }
 .navbarSettings{
     background-color: #11002b !important;
@@ -68,9 +70,11 @@ body{
 }
 
 .mainHeader{
-    padding-top:40%;
-    padding-bottom: 35%;
+    padding-top:45%;
+    padding-bottom: 48%;
     color:white;
+    
+ 
   
 
 }
@@ -79,6 +83,8 @@ body{
     background-image:url("./assets/images/wave-hero-background.svg");
     background-size: cover;
     background-position:top;
+
+
 }
 
 .imageHeader{
