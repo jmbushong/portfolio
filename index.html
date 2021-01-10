@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./assets/favicon.ico" rel="icon">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="" rel="stylesheet">
+    <title>JBushong</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top  navbar-expand-lg  navbar-dark bg-light navbarSettings p-4" >
+            <!-- <a class="navbar-brand" href="./index.html">Jessica Bushong</a> -->
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-5">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a  class="nav-link" href="#about">About </a>
+                </li>
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show" >
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="d-lg-none nav-item active " data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="https://drive.google.com/file/d/1xBsP81sxDAKpzpeU1KGwkrJ0d_6Y_s_t/view" target= "_blank"  >Resume</a>
+                </li>
+                <!-- <li class="d-lg-none nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="#projects">Contact</a>
+                </li> -->
+      <button type="button" class="d-none d-lg-block btn btn-secondary resumeButton ">     <a href="https://drive.google.com/file/d/1xBsP81sxDAKpzpeU1KGwkrJ0d_6Y_s_t/view" target= "_blank" style="color:white; "title="">Download Resume</a> </button>
+                    <!-- Button trigger modal -->
+<li class=" nav-item active " >
+<button type="button" class=" btn btn-primary contactButton"  data-toggle="modal" data-target="#exampleModalCenter">
+    Contact
+  </button> </li>
+  
+  <!-- Modal -->
+  <div  class="modal fade .modal-backdrop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div  class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="width: 60vw">
+        
+            <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3 form__container">
+                    
+                    <form action="https://formspree.io/f/mjvpjozk" role="form" method="POST" autocomplete="on">
+                      
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="form-control form-input" placeholder="Full name" required>
+                      </div>
+              
+                      <div class="form-group">
+                        <label for="_replyto">Your Email</label>
+                        <input type="email" name="_replyto" class="form-control form-input" placeholder="Email" required>
+                      </div>
+              
+                      <div class="form-group">
+                        <label for="message">How can I help you?</label>
+                        <textarea id="message" name="message" class="form-control" rows="4" width="100%" placeholder="Message" required></textarea>
+                      </div>
+              
+                      <div>
+                        <input type="submit" class="btn btn-primary" value="Send">
+                        <input type="hidden" name="_subject" value="New submission!" />
+                      </div>
+                    </form>
+                 
+                  </div>
+              
+                </div>
+              </div>
+              </div>
+     
+        </div>
+ 
+ 
+      </div>
+    </div>
+    
+
+    
+              </ul>
+       
+            </div>
+          </nav>
+        
+         
+            </div>
+      
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about"  title="">About</a></li>
+                <li><a href="#projects" title="">Projects</a></li>
+               
+                 
+              
+                </li>
+                <li>
+                  <!-- <p style="width:50px" >
+                    <a style="width:50px" href="https://drive.google.com/file/d/1xBsP81sxDAKpzpeU1KGwkrJ0d_6Y_s_t/view" target= "_blank" class="btn btn-default navbar-btn" title="">Download Resume</a>
+                  </p> -->
+                </li>
+      
+              </ul>
+            </div> 
+          </div>
+        </nav>
+      </header>
+    
+   
+
+    
+       <div class="mainHeader bottomOfHeader container-fluid">
+        
+            <div class="row">
+              <div class="col-xs-12 ml-auto mr-auto imageHeader">
+              <img class="mainPic" src="./assets/undraw_Devices_re_dxae.svg" alt="">
+                <h1>J. Bushong</h1>
+                <p>Web Developer- React | JavaScript | Node.js </p>
+                <a href="#about" class="btn btn-default btn-lg opacityPulse-css" title=""><i class="fas fa-chevron-down"></i></a> 
+                
+                
+                
+
+
+           
+                <br>
+                
+
+              </div>
+            </div>
+    
+        </div> 
+        <div  id="about"></div>
+       <br>
+       <br>
+       <br>
+     
+        <div class="container"> 
+            
+            <div class="row">
+                <div class="col-lg-6"></div>
+                <div  class="col-xs-12 col-md-6 col-md-offset-2 text-center">
+                  <!-- <h2 style="color:#1f0068; letter-spacing: 6px; margin-top:50px" >ABOUT ME</h2> -->
+                </div>
+            
+                <div class="container">
+                  <div class="row aboutSection" >
+                  <div class="col-lg-1  "></div>
+                  <h2 style="color:#1f0068;  letter-spacing: 3px; " class=" col-12 d-md-none text-center">  About </h2>
+                      <div class="col-lg-5 col-md-6  d-md-block">
+                          <div class="composition" data-aos="flip-left" data-aos-duration="2000">
+                              <img  class="composition__photo"    src="./assets/JessicaBushong2.jpg" alt="" >
+                              
+                            
+                          </div>
+                          
+                          <div class="col-lg-12 d-md-block d-none" style="margin-top:25px;">   
+                            <i  class="fab fa-html5 icon ml-4"></i>
+                         <i class="fab fa-css3-alt icon"></i>
+                         <i class="fab fa-js icon"></i>
+                         <i class="fab fa-bootstrap icon"></i>
+                         <i class="fab fa-react icon"></i>
+                         <i class="fab fa-node icon"></i>
+                         <i class="fab fa-sass icon"></i>
+                        </div>
+                          
+                  
+                      </div>
+                      
+                      <div class="col-md-6 col-sm-12 col-lg-5 aboutText "  data-aos="fade-left" data-aos-duration="2000"> 
+                      
+                        
+                        <p style="padding-left: 25px; padding-top:35px; "  class="paragraph ">
+                            
+                          <h2 style="color:#1f0068;  letter-spacing: 3px; " class="d-none d-md-block"> Hello! </h2>
+                  
+                         I'm an Indianapolis, Indiana based web developer passionate about using technology to inspire & innovate.<br><br>
+                 I develop websites and web applications using JavaScript, TypeScript, React, HTML5, CSS3, Sass, Node.js, PostgreSQL and Git.
+                          <br><br>
+                       
+                           My journey in becoming a developer dates back to when I first started teaching in the classroom. As a brand new teacher, I eagerly sought out new technologies to introduce into the classroom and quickly became fascinated by how transformative these technologies were to student engagement and learning.  
+                
+                          This planted the seed for me. After some years passed, I was no longer satisfied with simply being a consumer of these technologies. Instead, I wanted to create.
+                          <br><br>
+                          I’m now happy to join the wave of individuals transforming the world through technology!
+                       
+                         
+                        </p>
+                
+                       <!-- <div class="col-lg-12 d-md-block d-none">   
+                           <i  class="fab fa-html5 icon"></i>
+                        <i class="fab fa-css3-alt icon"></i>
+                        <i class="fab fa-js icon"></i>
+                        <i class="fab fa-bootstrap icon"></i>
+                        <i class="fab fa-react icon"></i>
+                        <i class="fab fa-node icon"></i>
+                        <i class="fab fa-sass icon"></i></div> -->
+                      <a href="#projects" style="color:#e0196c; font-size: 12pt; text-align: right;"  class="   btn btn-default btn-lg d-none d-md-block" title=""><i class="fas fa-chevron-down opacityPulse-css"> </i> Projects</a>
+                         
+                    </div>
+
+
+        </div></div> 
+      
+      
+      </div>
+        <br>
+        <br>
+   
+        <div id="projects"></div>
+        <br>
+        <br>
+        <br>
+        <section class="section-features "   >
+            <div>
+             
+              <div>
+                  <div>
+                    <!-- data-aos="flip-up" data-aos-duration="2000"  -->
+          
+        <div   style="padding-bottom: 0px;" class="section-container ">
+            <div class="container text-center">
+              <div class="row section-container-spacer">
+                <div class="col-sm-12 col-md-6 col-md-12 text-center">
+                 
+                  <h1   style="color:#1f0068; letter-spacing: 3px; background-color: #f7f7f7; " class="col-lg-12 mb-4 titleText text-center ">PROJECTS</h1>
+                  <p style="margin:0px; padding 0px"> Interested in seeing more? Check out my work on Github  <a href="https://github.com/jmbushong"><i class="fab fa-github icon icon__footer"></i></a> </p> <br><br><br>
+                  
+                </div>  
+          
+              </div>
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom" class="row col-10" style="margin-left: auto; margin-right:auto;" >
+                 
+                <div class="col-sm-12 smallMarginBottom col-md-6 col-lg-5 ">
+                  <img style="height:100px; width: 150px" src="./assets/undraw_love_xfcv.svg" alt="" class="reveal img-responsive reveal-content image-center animate__pulse" >
+                  <h4 style="color:#e0196c">DatePerfect</h4>
+                  <h5>CRUD Web Application w/ PERN Stack</h5>
+                  <p style="font-size: 12px;"> Node.js | PostgreSQL | React | Material-UI | Heroku </p>
+                  
+                  <p class=
+                  "projectText">DatePerfect is a dating application designed to help users find love. After creating a profile, users can search the database for a possible match & receive date recommendations based on shared interests.  </p> 
+                  <Button class="buttonStyle btn btn-dark col-12  smallMarginTop "><a class="btn btn--white" href="https://date-perfect.herokuapp.com/">See Live</a></Button>
+                  
+                  <!-- <Button class="buttonStyle btn btn-dark">See Live</Button>
+                  <Button class="buttonStyle btn btn-dark "><a href="https://github.com/KirstenVastine/datePerfectClient" target= "_blank">See Code</a></Button>
+                  <Button class="buttonStyle btn btn-dark col-10"><a href="https://github.com/jmbushong/datePerfectServer" target= "_blank">See Server-Side Code</a></Button> -->
+                </div>
+               <div class= "d-none d-lg-block col-lg-1"></div>
+                <div  class="col-sm-12 smallMarginBottom col-md-6 col-lg-5">
+                  <img   style="height:100px; width: 150px" src="./assets/undraw_app_data_516s.svg" alt="" class="reveal img-responsive reveal-content image-center">
+                  <h4 style="color:#e0196c">ServiceTracker</h4>
+                  <h5>CRUD Web Application w/ PERN Stack</h5>
+                  <p style="font-size: 12px;"> Node.js | PostgreSQL | React | Material-UI | Heroku </p>
+                 
+                  <p class=
+                  "projectText">This site is designed to allow students involved in a service organization to track & receive approval on their volunteer hours. This application was designed specifically to help NJHS sponors at a local school better track student hours.</p>
+                  <Button class="buttonStyle btn btn-dark col-12 smallMarginTop2 "><a class="btn btn--white" target="_blank"  href="#">COMING SOON</a></Button>
+                  <!-- <Button class="buttonStyle btn btn-dark ">See Live</Button>
+                  <Button class="buttonStyle btn btn-dark "><a href="" target= "_blank">See Code</a></Button>
+                  <Button class="buttonStyle btn btn-dark col-10"><a href="" target= "_blank">See Server-Side Code</a></Button> -->
+              
+          
+                </div>
+                <!-- <div class="col-sm-12 col-md-6 col-lg-4 smallMarginBottom">
+                  <img style="height:100px; width: 150px"src="./assets/undraw_Map_dark_k9pw.svg" alt="" class="reveal img-responsive reveal-content image-center">
+                  <h4 style="color:#e0196c">Explore</h4>
+                  <h5>API Application</h5>
+                  <p style="font-size: 12px;"> Node.js | PostgreSQL | React | Material-UI | Heroku </p>
+                  <p class=
+                  "projectText" >This location-based API site allows users to explore points of interest related to their surroundings including satelite imagery, weather statistics, and nearby restaurants. Users can opt to explore their current location or a location of their choosing.                                                                          </p>
+                    <Button class="buttonStyle btn btn-dark col-12 mt-3 "><a class="btn btn--white" target="_blank"  href="https://exploreyoursurroundings.herokuapp.com/">See Live</a></Button>
+                 
+              
+        
+                </div> -->
+                <div class="col-sm-12 col-md-6 col-lg-5 smallMarginBottom">
+                  <img src="./assets/undraw_breakfast_psiw.svg" style="height:100px; width: 150px" alt="" class="reveal img-responsive reveal-content image-center">
+                  <h4 style="color:#e0196c">Calorie Counter</h4>
+                  <h5>API Application</h5>
+                  <p style="font-size: 12px;"> HTML| CSS | JavaScript| Firebase </p>
+                  <p class=
+                  "projectText">This site allows a user to search foods, track calories, and see progress in staying under a specific caloric goal using the Nutritionix API.</p>
+                  <Button class="buttonStyle btn btn-dark col-12  smallMarginTop3 smallMarginBottom"><a class="btn btn--white" target="_blank"  href="https://jmb-caloriecounter.web.app">See Live</a></Button>
+                  <!-- <Button class="buttonStyle btn btn-dark">See Live</Button>
+                  <Button class="buttonStyle btn btn-dark"><a href="https://github.com/jmbushong/api2" target= "_blank">See Code</a></Button> -->
+              
+                </div>
+               
+                <!-- <div class="col-sm-12 col-md-6 col-lg-4 smallMarginBottom">
+                  <img   src="./assets/undraw_moments_0y20.svg" style="height:100px; width: 150px"alt="" class="reveal img-responsive reveal-content image-center">
+                  <h4 style="color:#e0196c">Photo Generator</h4>
+                  <h5>API Application</h5>
+                  <p style="font-size: 12px;"> Node.js | PostgreSQL | React | Material-UI | Heroku </p>
+                  <p class=
+                  "projectText">This tools randomly generators copyright free images for users using the Lorem Picsum API.</p><br>
+                  <Button class="buttonStyle btn btn-dark col-12 mt-3 "><a class=" btn btn--white" target="_blank"  href="https://jmbushong.github.io/apiProject-1/">See Live</a></Button>
+         
+                </div> -->
+                <div class="col-lg-1 d-none d-lg-block"></div>
+                <div class="col-sm-12 col-md-6 col-lg-5">
+                  <img  style="height:100px; width: 150px" src="./assets/undraw_web_developer_p3e5.svg" alt="" class="reveal reveal-content image-center">
+                  <h4 style="color:#e0196c">Static Layout</h4>
+                  <h5>Replicating a Design</h5>
+                  <p style="font-size: 12px;"> HTML | CSS </p>
+                  <p class=
+                  "projectText">The goal with this assignment was to replicate a preexisting website using HTML & CSS. The site I choose to replicate was www.elevenfifty.org.
+                </p>
+                <Button class="buttonStyle btn btn-dark col-12 smallMarginTop2 smallMarginBottom"><a class="btn btn--white" id="button" target="_blank"  href="https://jmbushong.github.io/static-website/">See Live</a></Button>
+                  <!-- <Button class="buttonStyle btn btn-dark">See Live</Button>
+                  <Button class="buttonStyle btn btn-dark" > <a href="https://github.com/jmbushong/static-website" target= "_blank">See Code</a></Button> -->
+                  
+            
+                </div>
+              </div></div>
+  
+
+      </div>
+                  </div>
+              </div>
+ 
+             
+            </div>
+
+         
+          </section>
+  
+    
+      
+   </div></div>
+
+
+  
+   <div style="margin-top:40px"></div>
+     
+            <footer >
+      
+                  <div class="footer-container" >
+              
+                    <div class="container pt-5 pb-4 ml-auto mr-auto " style="text-align: center;">
+                        
+                        <a href="https://github.com/jmbushong"><i class="fab fa-github icon icon__footer"></i></a> 
+                        <a href="https://www.linkedin.com/in/jessica-bushong/"><i class="fab fa-linkedin icon icon__footer"></i></a>
+                      </div>
+                    <h5 style="color:white; text-align: center;"> &copy; JESSICA BUSHONG 2021</h5>
+                      
+                      
+                    </div>
+             
+                </div>
+              </footer> 
+        </div>
+       
+    
+      
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+          navActivePage();
+          scrollRevelation('.reveal');
+        });
+      </script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ 
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
