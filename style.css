@@ -3,6 +3,11 @@
   padding: 0;
   
 }
+
+.smallMarginTop22{
+    margin-top: 15px !important;
+}
+
 body{
     font-size: 14px;
 }
@@ -278,6 +283,7 @@ body{
                     .smallMarginTop3{
                         margin-top: 35px;
                     }
+                 
                 
                           }
 /* // Large devices (desktops, 992px and up) */
@@ -312,11 +318,11 @@ body{
 
 
 .smallMarginTop22{
-    margin-top:30px !important;
+    margin-top:18px !important;
 }
 
 .smallMarginTop3{
-    margin-top:30px;
+    margin-top:35px;
 }
 
 
