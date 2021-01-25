@@ -191,10 +191,15 @@ body{
         margin-top: 35px;
     }
     .smallMarginTop2{
-        margin-top: 35px;
+        margin-top: 35px !important;
     }
+
+    .smallMarginTop22{
+        margin-top: 19px !important;
+    }
+
     .smallMarginTop3{
-        margin-top: 35px;
+        margin-top: 25px;
     }
     .mainHeader{
         padding-top:15%;
@@ -243,7 +248,7 @@ body{
         margin-top: 18px;
     }
     .smallMarginTop3{
-        margin-top: 19px;
+        margin-top: 0px;
     }
 
           }
@@ -302,8 +307,14 @@ body{
 }
 
 .smallMarginTop2{
-    margin-top:30px;
+    margin-top:30px !important;
 }
+
+
+.smallMarginTop22{
+    margin-top:30px !important;
+}
+
 .smallMarginTop3{
     margin-top:30px;
 }
